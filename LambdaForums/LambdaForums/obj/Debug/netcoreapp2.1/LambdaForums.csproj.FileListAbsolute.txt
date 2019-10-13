@@ -2,7 +2,6 @@ D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\La
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.csproj.CoreCompileInputs.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.RazorAssemblyInfo.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.RazorAssemblyInfo.cs
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.AssemblyInfoInputs.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.AssemblyInfo.cs
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.deps.json
@@ -35,3 +34,7 @@ D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\La
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.csproj.CopyComplete
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.dll
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.pdb
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Views\Forum\index.g.cshtml.cs
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Service.dll
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Service.pdb

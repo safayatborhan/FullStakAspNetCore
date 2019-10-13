@@ -8,11 +8,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="LambdaForums.Data">
       <HintPath>..\LambdaForums.Data\bin\Debug\netcoreapp2.1\LambdaForums.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="LambdaForums.Service">
+      <HintPath>..\LambdaForums.Service\bin\Debug\netcoreapp2.1\LambdaForums.Service.dll</HintPath>
     </Reference>
   </ItemGroup>
 
