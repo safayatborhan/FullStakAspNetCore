@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-LambdaForums-8BABE63F-E29B-4EB2-A8C5-EEA7A5B41FE3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LambdaForums.Data">
+      <HintPath>..\LambdaForums.Data\bin\Debug\netcoreapp2.1\LambdaForums.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
