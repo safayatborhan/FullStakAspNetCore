@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaForums", "LambdaForum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaForums.Data", "LambdaForums.Data\LambdaForums.Data.csproj", "{1BB87F3C-2EDD-416A-A579-C7138B6FE528}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaForums.Service", "LambdaForums.Service\LambdaForums.Service.csproj", "{83B11B1E-D192-4395-9E65-D03AA3BFEBEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1BB87F3C-2EDD-416A-A579-C7138B6FE528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BB87F3C-2EDD-416A-A579-C7138B6FE528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BB87F3C-2EDD-416A-A579-C7138B6FE528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B11B1E-D192-4395-9E65-D03AA3BFEBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B11B1E-D192-4395-9E65-D03AA3BFEBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B11B1E-D192-4395-9E65-D03AA3BFEBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B11B1E-D192-4395-9E65-D03AA3BFEBEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

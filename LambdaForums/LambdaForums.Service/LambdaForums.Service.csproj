@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LambdaForums.Data">
+      <HintPath>..\LambdaForums.Data\bin\Debug\netcoreapp2.1\LambdaForums.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
