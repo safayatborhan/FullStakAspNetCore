@@ -36,7 +36,42 @@ namespace LambdaForums.Controllers
         public ActionResult Topic(int id)
         {
             Forum forum = _forumService.GetById(id);
-            Post post = _postService.GetFilteredPosts(id);
+            IEnumerable<Post> posts = forum.Posts;
+
+            var postListings = posts.Select(x => new PostListingModel
+            {
+                Id = x.Id,
+                AuthorId = x.User.Id,
+                AuthorRating = x.User.Rating,
+                Title = x.Title,
+                DatePosted = x.Created.ToString(),
+                RepliesCount = x.Replies.Count(),
+                Forum = BuildForumListing(x)
+            });
+
+            var model = new ForumTopicModel
+            {
+                Posts = postListings,
+                Forum = BuildForumListing(forum)
+            };
+            return View(model);
+        }
+
+        private ForumListingModel BuildForumListing(Post post)
+        {
+            var forum = post.Forum;
+            return BuildForumListing(forum);
+        }
+
+        private ForumListingModel BuildForumListing(Forum forum)
+        {
+            return new ForumListingModel
+            {
+                Id = forum.Id,
+                Name = forum.Title,
+                Description = forum.Description,
+                ImageUrl = forum.ImageUrl
+            };
         }
     }
 }
