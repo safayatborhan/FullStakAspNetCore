@@ -1,9 +1,3 @@
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.csprojAssemblyReference.cache
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.csproj.CoreCompileInputs.cache
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.RazorAssemblyInfo.cache
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.RazorAssemblyInfo.cs
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.AssemblyInfoInputs.cache
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.AssemblyInfo.cs
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.deps.json
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.runtimeconfig.json
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.runtimeconfig.dev.json
@@ -12,11 +6,20 @@ D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\La
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Views.dll
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Views.pdb
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Data.dll
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Service.dll
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Data.pdb
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Service.pdb
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.csprojAssemblyReference.cache
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.csproj.CoreCompileInputs.cache
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.RazorAssemblyInfo.cache
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.RazorAssemblyInfo.cs
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.AssemblyInfoInputs.cache
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.AssemblyInfo.cs
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.TagHelpers.input.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.TagHelpers.output.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.RazorCoreGenerate.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Views\Forum\index.g.cshtml.cs
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
@@ -35,6 +38,3 @@ D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\La
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.dll
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.pdb
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Views\Forum\index.g.cshtml.cs
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Service.dll
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\bin\Debug\netcoreapp2.1\LambdaForums.Service.pdb

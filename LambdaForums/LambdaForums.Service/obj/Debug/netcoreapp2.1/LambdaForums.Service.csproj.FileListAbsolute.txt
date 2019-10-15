@@ -2,7 +2,6 @@ D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\bin\Debug\netcorea
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.1\LambdaForums.Service.dll
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.1\LambdaForums.Data.dll
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.1\LambdaForums.Data.pdb
-D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.1\LambdaForums.Service.csprojAssemblyReference.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.1\LambdaForums.Service.csproj.CoreCompileInputs.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.1\LambdaForums.Service.AssemblyInfoInputs.cache
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.1\LambdaForums.Service.AssemblyInfo.cs
@@ -10,3 +9,4 @@ D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\obj\Debug\netcorea
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\bin\Debug\netcoreapp2.1\LambdaForums.Service.pdb
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.1\LambdaForums.Service.dll
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.1\LambdaForums.Service.pdb
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums.Service\obj\Debug\netcoreapp2.1\LambdaForums.Service.csprojAssemblyReference.cache
