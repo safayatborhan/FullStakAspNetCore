@@ -13,6 +13,7 @@ using LambdaForums.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using LambdaForums.Service;
+using LambdaForums.Data.Models;
 
 namespace LambdaForums
 {
@@ -38,9 +39,8 @@ namespace LambdaForums
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddDefaultIdentity<ApplicationUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
             services.AddScoped<IForum, ForumService>();
             services.AddScoped<IPost, PostService>();
 

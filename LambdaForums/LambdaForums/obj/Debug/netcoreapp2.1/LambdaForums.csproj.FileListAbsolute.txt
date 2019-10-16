@@ -39,3 +39,4 @@ D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\La
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\LambdaForums.pdb
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Views\Forum\Topic.g.cshtml.cs
+D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\obj\Debug\netcoreapp2.1\Razor\Views\Post\Index.g.cshtml.cs
