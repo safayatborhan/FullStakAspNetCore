@@ -58,7 +58,7 @@ using LambdaForums.Models;
             WriteLiteral("\r\n\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(75, 100, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c00ee6ad7346447bb0ec63d0aa278d93", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da81594275d54f2599f18b441678ba9b", async() => {
                 BeginContext(81, 87, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Topic</title>\r\n");
                 EndContext();
@@ -78,7 +78,7 @@ using LambdaForums.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(177, 1031, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da312144638b49f9a9ede0fdeb83d80e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce298ef3be2146309207fa2726c0042b", async() => {
                 BeginContext(183, 25, true);
                 WriteLiteral("\r\n    <h1>Welcome to the ");
                 EndContext();
@@ -111,7 +111,7 @@ using LambdaForums.Models;
                 WriteLiteral("                <tr>                    \r\n                    <td>\r\n                        ");
                 EndContext();
                 BeginContext(517, 83, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "15d2daae155c4ed4a9925115f3e96a56", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d991f9860794cabae5e47d828f32b43", async() => {
                     BeginContext(586, 10, false);
 #line 22 "D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\Views\Forum\Topic.cshtml"
                                                                                        Write(post.Title);
@@ -203,7 +203,7 @@ using LambdaForums.Models;
                 WriteLiteral(" posts yet. <br />\r\n            Wht not\r\n            ");
                 EndContext();
                 BeginContext(1026, 131, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f1330a99ec8e45c6994a57e2affdc4fa", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72ec639e85af4556b90d9ba7362fbcb4", async() => {
                     BeginContext(1102, 51, true);
                     WriteLiteral("\r\n                <span>create</span>\r\n            ");
                     EndContext();

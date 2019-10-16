@@ -1,5 +1,6 @@
 ﻿using LambdaForums.Data;
 using LambdaForums.Data.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,7 +44,12 @@ namespace LambdaForums.Service
 
         public Post GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Posts.Where(x => x.Id == id)
+                .Include(x => x.User)
+                .Include(x => x.Replies)
+                    .ThenInclude(y => y.User)
+                .Include(x => x.Forum)
+                .FirstOrDefault();
         }
 
         public IEnumerable<Post> GetFilteredPosts(string searchQuery)
