@@ -64,7 +64,7 @@ using LambdaForums.Models;
             WriteLiteral("        <tr>\r\n            <td>");
             EndContext();
             BeginContext(223, 85, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "62c175fbec9241238c3bb80367f3cb8c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e250931b77441b18d985d7fc4647d4e", async() => {
                 BeginContext(294, 10, false);
 #line 10 "D:\WORKS\FullStakAspNetCore\LambdaForums\LambdaForums\Views\Forum\index.cshtml"
                                                                                  Write(forum.Name);

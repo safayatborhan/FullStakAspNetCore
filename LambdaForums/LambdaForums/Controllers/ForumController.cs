@@ -43,6 +43,7 @@ namespace LambdaForums.Controllers
                 Id = x.Id,
                 AuthorId = x.User.Id,
                 AuthorRating = x.User.Rating,
+                AuthorName = x.User.UserName,
                 Title = x.Title,
                 DatePosted = x.Created.ToString(),
                 RepliesCount = x.Replies.Count(),

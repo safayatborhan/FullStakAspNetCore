@@ -16,10 +16,10 @@ namespace LambdaForums.Service
         {
             _context = context;
         }
-
-        public Task Add(Post post)
+        public async Task Add(Post post)
         {
-            throw new NotImplementedException();
+            _context.Posts.Add(post);
+            await _context.SaveChangesAsync();
         }
 
         public Task AddReply(PostReply reply)
@@ -44,12 +44,13 @@ namespace LambdaForums.Service
 
         public Post GetById(int id)
         {
-            return _context.Posts.Where(x => x.Id == id)
+            Post post = _context.Posts.Where(x => x.Id == id)
                 .Include(x => x.User)
                 .Include(x => x.Replies)
                     .ThenInclude(y => y.User)
                 .Include(x => x.Forum)
                 .FirstOrDefault();
+            return post;
         }
 
         public IEnumerable<Post> GetFilteredPosts(string searchQuery)
