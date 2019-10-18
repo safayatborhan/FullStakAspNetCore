@@ -1,10 +1,11 @@
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\bin\Debug\netcoreapp2.1\CELForum.Data.deps.json
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\bin\Debug\netcoreapp2.1\CELForum.Data.runtimeconfig.json
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\bin\Debug\netcoreapp2.1\CELForum.Data.runtimeconfig.dev.json
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\bin\Debug\netcoreapp2.1\CELForum.Data.dll
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\bin\Debug\netcoreapp2.1\CELForum.Data.pdb
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.csprojAssemblyReference.cache
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.csproj.CoreCompileInputs.cache
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.AssemblyInfoInputs.cache
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.AssemblyInfo.cs
-D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\bin\Debug\netcoreapp2.1\CELForum.Data.runtimeconfig.json
-D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\bin\Debug\netcoreapp2.1\CELForum.Data.runtimeconfig.dev.json
-D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\bin\Debug\netcoreapp2.1\CELForum.Data.pdb
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.dll
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.pdb

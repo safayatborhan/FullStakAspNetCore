@@ -37,9 +37,17 @@ namespace CELForum.Controllers
                 AuthorRating = post.User.Rating,
                 Created = post.Created,
                 PostContent = post.Content,
-                Replies = replies
+                Replies = replies,
+                ForumId = post.Forum.Id,
+                ForumName = post.Forum.Title,
+                IsAuthorAdmin = IsAuthorAdmin(post.User)
             };
             return View(model);
+        }
+
+        private bool IsAuthorAdmin(ApplicationUser user)
+        {
+            return _userManager.GetRolesAsync(user).Result.Contains("Admin");
         }
 
         public IActionResult Create(int id)
@@ -92,7 +100,8 @@ namespace CELForum.Controllers
                 AuthorImageUrl = x.User.ProfileImageUrl,
                 AuthorRating = x.User.Rating,
                 Created = x.Created,
-                ReplyContent = x.Content
+                ReplyContent = x.Content,
+                IsAuthorAdmin = IsAuthorAdmin(x.User)
             });
         }
     }
