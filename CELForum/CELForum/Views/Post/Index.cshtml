@@ -1,0 +1,35 @@
+﻿@model CELForum.Models.PostIndexModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.Title</title>
+</head>
+<body>
+    <div>
+        Author : @Model.AuthorName (@Model.AuthorRating)
+        Created : @Model.Created
+    </div>
+
+    <div>
+        @Model.PostContent
+    </div>
+
+    @if (Model.Replies.Any())
+    {
+        foreach (var reply in Model.Replies)
+        {
+            <div>
+                Reply Author : @reply.AuthorName (@reply.AuthorRating)
+                Reply Created : @reply.Created
+            </div>
+
+            <div>
+                Reply : @reply.ReplyContent
+            </div>
+        }
+    }
+</body>
+</html>

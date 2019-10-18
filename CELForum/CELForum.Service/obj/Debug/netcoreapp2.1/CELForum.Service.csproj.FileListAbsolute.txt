@@ -1,0 +1,14 @@
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\bin\Debug\netcoreapp2.1\CELForum.Service.deps.json
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\bin\Debug\netcoreapp2.1\CELForum.Service.dll
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\bin\Debug\netcoreapp2.1\CELForum.Service.pdb
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\bin\Debug\netcoreapp2.1\CELForum.Data.dll
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\bin\Debug\netcoreapp2.1\CELForum.Data.pdb
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\obj\Debug\netcoreapp2.1\CELForum.Service.csprojAssemblyReference.cache
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\obj\Debug\netcoreapp2.1\CELForum.Service.csproj.CoreCompileInputs.cache
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\obj\Debug\netcoreapp2.1\CELForum.Service.AssemblyInfoInputs.cache
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\obj\Debug\netcoreapp2.1\CELForum.Service.AssemblyInfo.cs
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\obj\Debug\netcoreapp2.1\CELForum.Service.csproj.CopyComplete
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\obj\Debug\netcoreapp2.1\CELForum.Service.dll
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\obj\Debug\netcoreapp2.1\CELForum.Service.pdb
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\bin\Debug\netcoreapp2.1\CELForum.Service.runtimeconfig.json
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Service\bin\Debug\netcoreapp2.1\CELForum.Service.runtimeconfig.dev.json
