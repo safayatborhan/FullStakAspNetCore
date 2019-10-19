@@ -9,37 +9,20 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CELForum.Controllers
 {
-    public class ForumController : Controller
+    public class SearchController : Controller
     {
-        private readonly IForum _forumService;
         private readonly IPost _postService;
-        public ForumController(IForum forumService, IPost postService)
+
+        public SearchController(IPost postService)
         {
-            _forumService = forumService;
             _postService = postService;
         }
 
-        public IActionResult Index()
+        public IActionResult Results(string searchQuery)
         {
-            IEnumerable<ForumListingModel> forums = _forumService.GetAll().Select(forum => new ForumListingModel {
-                Id = forum.Id,
-                Name = forum.Title,
-                Description = forum.Description
-            });
-            var model = new ForumIndexModel
-            {
-                ForumList = forums
-            };
-            return View(model);
-        }
-
-        public ActionResult Topic(int id, string searchQuery)
-        {
-            Forum forum = _forumService.GetById(id);
-            var posts = new List<Post>();
-            posts = _postService.GetFilteredPosts(forum, searchQuery).ToList();
-
-            var postListings = posts.Select(x => new PostListingModel
+            var post = _postService.GetFilteredPosts(searchQuery);
+            var areNoResults = (!string.IsNullOrEmpty(searchQuery) && !post.Any());
+            var postListings = post.Select(x => new PostListingModel
             {
                 Id = x.Id,
                 AuthorId = x.User.Id,
@@ -50,27 +33,19 @@ namespace CELForum.Controllers
                 RepliesCount = x.Replies.Count(),
                 Forum = BuildForumListing(x)
             });
-
-            var model = new ForumTopicModel
+            var model = new SearchResultModel
             {
                 Posts = postListings,
-                Forum = BuildForumListing(forum)
+                SearchQuery = searchQuery,
+                EmptySearchResults = areNoResults
             };
             return View(model);
         }
-
-        [HttpPost]
-        public IActionResult Search(int id, string searchQuery)
-        {
-            return RedirectToAction("Topic", new { id, searchQuery });
-        }
-
         private ForumListingModel BuildForumListing(Post post)
         {
             var forum = post.Forum;
             return BuildForumListing(forum);
         }
-
         private ForumListingModel BuildForumListing(Forum forum)
         {
             return new ForumListingModel
@@ -80,6 +55,12 @@ namespace CELForum.Controllers
                 Description = forum.Description,
                 ImageUrl = forum.ImageUrl
             };
+        }
+
+        [HttpPost]
+        public IActionResult Search(string searchQuery)
+        {
+            return RedirectToAction("Results", new { searchQuery });
         }
     }
 }

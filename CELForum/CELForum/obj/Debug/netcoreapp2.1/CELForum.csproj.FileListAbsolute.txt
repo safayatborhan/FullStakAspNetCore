@@ -49,3 +49,4 @@ D:\WORKS\FullStakAspNetCore\CELForum\CELForum\obj\Debug\netcoreapp2.1\CELForum.V
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum\obj\Debug\netcoreapp2.1\CELForum.csproj.CopyComplete
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum\obj\Debug\netcoreapp2.1\CELForum.dll
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum\obj\Debug\netcoreapp2.1\CELForum.pdb
+D:\WORKS\FullStakAspNetCore\CELForum\CELForum\obj\Debug\netcoreapp2.1\Razor\Views\Search\Results.g.cshtml.cs

@@ -58,9 +58,17 @@ namespace CELForum.Service
             return post;
         }
 
+        public IEnumerable<Post> GetFilteredPosts(Forum forum, string searchQuery)
+        {
+            var posts = string.IsNullOrEmpty(searchQuery) ? forum.Posts : forum.Posts.Where(x => x.Title.Contains(searchQuery) || x.Content.Contains(searchQuery));
+            return posts;
+        }
+
         public IEnumerable<Post> GetFilteredPosts(string searchQuery)
         {
-            throw new NotImplementedException();
+            IEnumerable<Post> posts = GetAll().Where(x => x.Title.Contains(searchQuery) || x.Content.Contains(searchQuery));
+
+            return posts;
         }
 
         public IEnumerable<Post> GetLatestPosts(int numberOfPost)
