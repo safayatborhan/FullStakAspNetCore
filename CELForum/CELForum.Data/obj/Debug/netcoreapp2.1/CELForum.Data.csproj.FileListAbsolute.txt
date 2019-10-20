@@ -8,4 +8,3 @@ D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELFo
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.AssemblyInfo.cs
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.dll
 D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.pdb
-D:\WORKS\FullStakAspNetCore\CELForum\CELForum.Data\obj\Debug\netcoreapp2.1\CELForum.Data.csprojAssemblyReference.cache

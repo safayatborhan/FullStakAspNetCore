@@ -75,7 +75,7 @@ using LambdaForums.Models;
             WriteLiteral("\r\n\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(71, 100, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "86f934ca920243ec889c98c1053473df", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "634c25e9f47d442993fe00493f1a57ea", async() => {
                 BeginContext(77, 87, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Topic</title>\r\n");
                 EndContext();
@@ -95,7 +95,7 @@ using LambdaForums.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(173, 4102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9bee0c3524594b73b34c9f64c9e847f6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9958a839e2c341b6a2b3b17846ba7bf3", async() => {
                 BeginContext(179, 149, true);
                 WriteLiteral("\r\n    <div class=\"container body-content\">\r\n        <div class=\"row sectionHeader\">\r\n            <div class=\"sectionHeading\">\r\n                <span>");
                 EndContext();
@@ -119,7 +119,7 @@ using LambdaForums.Models;
                 WriteLiteral("                    <span id=\"headingBtn\">");
                 EndContext();
                 BeginContext(482, 115, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff82ebfa59a64281825a4dddd4d04381", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf0cff2959fb4ebd8f7afde5c1f1544c", async() => {
                     BeginContext(582, 11, true);
                     WriteLiteral("Create Post");
                     EndContext();
@@ -165,12 +165,12 @@ using LambdaForums.Models;
                 WriteLiteral("                ");
                 EndContext();
                 BeginContext(641, 550, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "acda712a76b0425cb6bcb953424ddda4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0457b7542064411b886e5258866616b6", async() => {
                     BeginContext(704, 72, true);
                     WriteLiteral("\r\n                    <div class=\"searchForm\">\r\n                        ");
                     EndContext();
                     BeginContext(776, 111, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "609c6cd9187d4346b061d4e69474c89b", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "efbee2b54c734ffebeac3b8661a6f8c4", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -198,7 +198,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     WriteLiteral("\r\n                        <button type=\"submit\" class=\"btn btn-forumSearch\">\r\n                            <i class=\"material-icons\">search</i>\r\n                        </button>\r\n                    </div>\r\n                    ");
                     EndContext();
                     BeginContext(1114, 52, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8dd999a851ff4e7cbd0e15fb19624246", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c630294ada1b47159a11522c0b7a37bd", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -279,7 +279,7 @@ WriteAttributeValue("", 1326, Model.Forum.ImageUrl, 1326, 21, false);
                 WriteLiteral("                    <p><span>You must be a ");
                 EndContext();
                 BeginContext(1579, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d5751511fd07479a82c9554f25609226", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ac17ddf35404e509eb9c077b7f1702b", async() => {
                     BeginContext(1629, 10, true);
                     WriteLiteral("registered");
                     EndContext();
@@ -329,7 +329,7 @@ WriteAttributeValue("", 1326, Model.Forum.ImageUrl, 1326, 21, false);
                 WriteLiteral("                        <tr>\r\n                            <td>\r\n                                <div class=\"postData\">\r\n                                    <div class=\"postTitle\">\r\n                                        ");
                 EndContext();
                 BeginContext(2259, 83, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a869fa583dd4279939227beaaf1747b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f78d60622254566ad8363170be9d487", async() => {
                     BeginContext(2328, 10, false);
 #line 50 "D:\WORKS\FullStakAspNetCore\CELForum\CELForum\Views\Forum\Topic.cshtml"
                                                                                                        Write(post.Title);
@@ -375,7 +375,7 @@ WriteAttributeValue("", 1326, Model.Forum.ImageUrl, 1326, 21, false);
                                                 ");
                 EndContext();
                 BeginContext(2619, 202, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf3539a4babb4b998d45f2bb70b94911", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb8a0c4db6334d2396e9cfcafedb2786", async() => {
                     BeginContext(2697, 54, true);
                     WriteLiteral("\r\n                                                    ");
                     EndContext();
@@ -482,7 +482,7 @@ WriteAttributeValue("", 1326, Model.Forum.ImageUrl, 1326, 21, false);
                         ");
                 EndContext();
                 BeginContext(3994, 140, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3c72764c76b4d40b0c4bf2c8af109bd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e6313c1be714520b12fe1ba77b50eb7", async() => {
                     BeginContext(4070, 60, true);
                     WriteLiteral("\r\n                            Post\r\n                        ");
                     EndContext();

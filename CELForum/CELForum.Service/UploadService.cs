@@ -1,10 +1,11 @@
-﻿using System;
+﻿using CELForum.Data;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CELForum.Service
 {
-    class UploadService
+    public class UploadService : IUpload
     {
     }
 }
